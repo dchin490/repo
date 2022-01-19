@@ -1,6 +1,10 @@
 import streamlit as st
 import math
 
+"""
+# Sugar Arb Calculator
+"""
+
 #arb premium calc
 def sugar_arb(sb, w):
     prem = abs((sb*22.0462)-w)
