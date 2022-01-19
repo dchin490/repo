@@ -7,8 +7,7 @@ def sugar_arb(sb, w):
     prem = round(prem, 5)
     return prem
 
-sb = st.number_input("NYBOT Sugar", min_value=0, max_value=None)
-w = st.number_input("White Sugar", min_value=0, max_value=None)   
+sb = st.number_input("NYBOT Sugar", min_value=0, max_value=None, format = %f)
+w = st.number_input("White Sugar", min_value=0, max_value=None, format = %f)   
 st.metric("Arb Premium", sugar_arb(sb, w), delta=None, delta_color="normal")
 
-    
