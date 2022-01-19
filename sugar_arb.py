@@ -8,5 +8,7 @@ def sugar_arb(sb, w):
     return prem
 
 sb = st.number_input("NYBOT Sugar", min_value=0, max_value=None)
-w = st.number_input("White Sugar", min_value=0, max_value=None)    
+w = st.number_input("White Sugar", min_value=0, max_value=None)   
+
+st.button(label, key=None, help=None, on_click=None, args=None, kwargs=None, *, disabled=False)
     
